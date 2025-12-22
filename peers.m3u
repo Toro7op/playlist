@@ -1,6 +1,9 @@
 #EXTM3U catchup="append" catchup-source="&offset=${offset}" catchup-days="3"
 
 #EXTINF:-1 group-title="Федеральные"tvg-id="pervy" ,Первый канал
+https://hls.peers.tv/streaming/1kanal/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Федеральные"tvg-id="pervy" ,Первый канал
 https://hls.peers.tv/streaming/1kanal/126/vh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Федеральные"tvg-id="pervy" ,Первый канал
@@ -8,12 +11,6 @@ http://hls.peers.tv/streaming/1kanal/16/tvrecw/playlist.m3u8
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="rossia1" ,Россия 1
 https://hls.peers.tv/streaming/rossija/16/tvrecw/playlist.m3u8
-
-#EXTINF:-1 group-title="Спорт" tvg-id="match-tv" ,Матч!
-https://hls.peers.tv/streaming/sport/126/vh1w/playlist.m3u8
-
-#EXTINF:-1 group-title="Спорт" tvg-id="match-tv" ,Матч!
-http://hls.peers.tv/streaming/sport/16/vh1w/playlist.m3u8?token=вставитьсвой
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="ntv" ,НТВ
 https://hls.peers.tv/streaming/ntv/126/vh1w/playlist.m3u8
@@ -35,6 +32,9 @@ https://hls.peers.tv/streaming/tvc/126/vh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="tvcentr" ,ТВ Центр
 https://hls.peers.tv/streaming/tvci/126/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Федеральные" tvg-id="tvcentr" ,ТВ Центр HD
+https://hls.peers.tv/streaming/tvc_hd/126/tvrecw/playlist.m3u8
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="rentv" ,РЕН ТВ
 https://hls.peers.tv/streaming/rentv/16/g2500/playlist.m3u8
@@ -96,14 +96,35 @@ https://hls.peers.tv/streaming/rbk/126/vh1w/playlist.m3u8
 #EXTINF:-1 group-title="Информационные" tvg-id="rossia-24" ,Россия 24
 https://hls.peers.tv/streaming/vesti/16/g2500/playlist.m3u8
 
+#EXTINF:-1 group-title="Кино" tvg-id="sony-turbo" ,.black
+http://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="sony-tv" ,.red
+http://api.peers.tv/timeshift/set/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="sony-scifi" ,.sci-fi
+http://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8
+
 #EXTINF:-1 group-title="Кино" tvg-id="4k-ruskino" ,4K Русское кино
 https://hls.peers.tv/streaming/ru_kino4k/16/copy/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="kino-24" ,Kino 24
 https://hls.peers.tv/streaming/kino24/126/vh1w/playlist.m3u8
 
+#EXTINF:-1 group-title="Кино" tvg-id="kinojam2" ,KinoJam 2
+http://api.peers.tv/timeshift/kinojam/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="saga-tv" ,SAGA TV
+http://api.peers.tv/timeshift/saga_tv/16/playlist.m3u8
+
 #EXTINF:-1 group-title="Кино" tvg-id="silk-way-cinema" ,Silk Way Cinema
 https://hls.peers.tv/streaming/silk_way_cinema/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="star-cinema" ,Star Cinema HD
+https://hls.peers.tv/streaming/star_cinema_hd/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="timeless-dizi" ,Timeless Dizi Channel
+http://api.peers.tv/timeshift/timeless_dizi_channel/16/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="vhs-ka" ,VHS-KA
 https://hls.peers.tv/streaming/vhs_ka/16/copy/playlist.m3u8
@@ -111,14 +132,56 @@ https://hls.peers.tv/streaming/vhs_ka/16/copy/playlist.m3u8
 #EXTINF:-1 group-title="Кино" tvg-id="vhska-serial" ,VHS-Сериал HD
 https://hls.peers.tv/streaming/vhs_serial/16/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Кино" tvg-id="domkino" ,Дом кино
+https://hls.peers.tv/streaming/dom_kino/16/gvh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="dorama" ,Дорама
+http://api.peers.tv/timeshift/dorama/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="indiyskoe-kino" ,Индийское кино
+http://api.peers.tv/timeshift/indiatv/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="zee-tv" ,Индия
+http://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kineko" ,КИНЕКО HD
+http://api.peers.tv/timeshift/kineko_hd/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinopokaz" ,Кинопоказ
+https://hls.peers.tv/streaming/kinopokaz/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinomiks" ,КИНОМИКС
+http://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinopremiera-hd" ,КИНОПРЕМЬЕРА HD
+http://api.peers.tv/timeshift/premera/16/playlist.m3u8
+
 #EXTINF:-1 group-title="Кино" tvg-id="kinosat" ,Киносат
 https://hls.peers.tv/streaming/kinosat/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinosvidanie" ,КИНОСВИДАНИЕ HD
+http://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinosezon" ,КиноСезон
 https://stitch.teletarget.ru/peerstv/movieseason/index.m3u8
 
+#EXTINF:-1 group-title="Кино" tvg-id="kinosemiya" ,КИНОСЕМЬЯ HD
+http://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinoseria" ,КИНОСЕРИЯ
+http://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinouzhas" ,КИНОУЖАС
+http://api.peers.tv/timeshift/kinouzhas/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="kinoxit" ,КИНОХИТ HD
+http://api.peers.tv/timeshift/kinohit/16/playlist.m3u8
+
 #EXTINF:-1 group-title="Кино" tvg-id="klassika-kino" ,Классика кино
 https://hls.peers.tv/streaming/klassikakino/16/variable.m3u8
+
+#EXTINF:-1 group-title="Кино"  tvg-id="legenda" ,Легенда
+https://hls.peers.tv/streaming/legenda/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="lubimoe-kino" ,Любимое Кино
 https://hls.peers.tv/streaming/favmovie/16/tvrecw/playlist.m3u8
@@ -126,8 +189,17 @@ https://hls.peers.tv/streaming/favmovie/16/tvrecw/playlist.m3u8
 #EXTINF:-1 group-title="Кино" tvg-id="mir-seriala" ,Мир сериала
 https://hls.peers.tv/streaming/mir_seriala/16/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Кино" tvg-id="muzhskoe-kino" ,МУЖСКОЕ КИНО HD
+http://api.peers.tv/timeshift/muzhskoe_kino_hd/16/playlist.m3u8
+
 #EXTINF:-1 group-title="Кино" tvg-id="ntv-serial" ,НТВ Сериал
 https://hls.peers.tv/streaming/ntv_serial/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="rodnoe-kino" ,РОДНОЕ КИНО
+http://api.peers.tv/timeshift/ntv_nashe_kino/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="sapfir" ,САПФИР HD
+http://api.peers.tv/timeshift/sapfir_hd/16/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="sovkino" ,Советское кино
 https://hls.peers.tv/streaming/sovetskoekino/16/variable.m3u8
@@ -135,589 +207,233 @@ https://hls.peers.tv/streaming/sovetskoekino/16/variable.m3u8
 #EXTINF:-1 group-title="Кино" tvg-id="tvxxi" ,ТВ-21
 https://hls.peers.tv/streaming/tv21/16/tvrecw/playlist.m3u8
 
-#EXTINF:-1 group-title="Развлекательные" tvg-id="360-podmoskovie" ,360°
+#EXTINF:-1 group-title="Развлекательные" tvg-id="360-podmoskovie" ,360
 https://hls.peers.tv/streaming/360tv/126/vh1w/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=34498202 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3739 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=34498202 cn-records=1 group-title="Кино и сериалы", СТС love
-https://hls.peers.tv/streaming/sts_love/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=380869991 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4043 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=380869991 cn-records=1 group-title="Познавательный", The Explorers
-https://hls.peers.tv/streaming/the_explorers/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=495228824 recordable=true age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4383 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=495228824 cn-records=1 group-title="Познавательный", Легенда
-https://hls.peers.tv/streaming/legenda/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=318738649 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4415 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=318738649 group-title="Хобби и развлечения", Мой мир
-https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=10338248 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=223 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=10338248 group-title="Хобби и развлечения", ЮТВ
-https://hls.peers.tv/streaming/utv/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=10338221 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=202 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=10338221 group-title="Эфир", Че!
-https://hls.peers.tv/streaming/perec/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=446565360 recordable=true age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4240 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=446565360 cn-records=1 group-title="Познавательный", АРТ ТВ
-https://hls.peers.tv/streaming/art_tv/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=448672202 recordable=true age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4242 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=448672202 cn-records=1 group-title="Хобби и развлечения", Мы
-https://hls.peers.tv/streaming/mi/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=10338283 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3613 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=10338283 group-title="Познавательный", Russian Travel Guide
-https://hls.peers.tv/streaming/rustravel/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=71609281 recordable=true age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3882 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=71609281 cn-records=1 group-title="Познавательный", Наша Сибирь
-https://hls.peers.tv/streaming/nasha_sibir/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=342601201 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3866 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=342601201 group-title="Хобби и развлечения", AnimeTV
-https://hls.peers.tv/streaming/animetv/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=152696190 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4218 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=152696190 cn-records=1 group-title="Хобби и развлечения", Тайна
-https://hls.peers.tv/streaming/tayna/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=327143622 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=3649 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=327143622 group-title="Эфир", ТВЦ HD
-https://hls.peers.tv/streaming/tvc_hd/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=98195396 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2553 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=98195396 group-title="Познавательный", НТВ-Право
-https://hls.peers.tv/streaming/ntv_pravo/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=155734539 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3593 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=155734539 group-title="Хобби и развлечения", НТВ-Стиль
-https://hls.peers.tv/streaming/ntv_stil/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=264687296 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3590 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=264687296 group-title="Спорт HD", Живи активно HD
-https://hls.peers.tv/streaming/zhivi_aktivno_hd/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=235214853 recordable=true age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3591 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=235214853 cn-records=1 group-title="Хобби и развлечения", Глазами Туриста HD
-https://hls.peers.tv/streaming/glazami_turista_hd/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=235214866 age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3592 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=235214866 group-title="Познавательный", Живая природа HD
-https://hls.peers.tv/streaming/zhivaya_priroda_hd/16/h1080/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=240791264 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=3557 aspect-ratio=16:9 provider-id=2 has-timeshift=true
-#EXTINF:-1 cn-id=240791264 cn-records=1 group-title="Хобби и развлечения", Ключ
-https://hls.peers.tv/streaming/klyuch/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=21014144 recordable=true age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=293 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=21014144 cn-records=1 group-title="Новости", Russia Today
-https://hls.peers.tv/streaming/russiatoday/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=310632461 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4023 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=310632461 cn-records=1 group-title="Эфир", Сибирь 24
-https://hls.peers.tv/streaming/sibir_24/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=329878631 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3889 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=329878631 group-title="Клуб HD", Fashion HD
-https://hls.peers.tv/streaming/fashdon/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=24971384 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2559 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=24971384 cn-records=1 group-title="Познавательный", Тайны Галактики
-https://hls.peers.tv/streaming/galaxy_tv/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=10338238 recordable=true age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=1481 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=10338238 cn-records=1 group-title="Музыка", RU.TV HD
-https://hls.peers.tv/streaming/rutv/16/tvrec/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=10338280 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=253 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=10338280 group-title="Музыка", BRIDGE
-https://hls.peers.tv/streaming/bridge/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=63199994 recordable=true age-restriction=16 territory-id=161
-#EXT-INETRA-STREAM-INF: id=2590 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=63199994 cn-records=1 group-title="Эфир", ОТВ Екатеринбург
-https://hls.peers.tv/streaming/otv_ekater/161/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=28617716 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2490 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=28617716 group-title="Эфир", Енисей
-https://hls.peers.tv/streaming/enisey/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=10338263 recordable=true age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4058 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=10338263 cn-records=1 group-title="Эфир", 49 КАНАЛ
-https://hls.peers.tv/streaming/49kanal/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=28617894 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2599 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=28617894 group-title="Эфир", Брянская Губерния
-https://hls.peers.tv/streaming/bryanskaya_guberniya/126/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=28647610 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2544 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=28647610 group-title="Эфир", НВК САХА
-https://hls.peers.tv/streaming/nvk_saha/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=29582536 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2499 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=29582536 group-title="Эфир", ННТВ
-https://hls.peers.tv/streaming/nntv/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=24972236 recordable=true age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2047 aspect-ratio=16:9 provider-id=2 has-timeshift=true
-#EXTINF:-1 cn-id=24972236 cn-records=1 group-title="Познавательный", Радость моя
-https://hls.peers.tv/streaming/radost_moj/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=24972017 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4297 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=24972017 group-title="Познавательный", ОКЕАН HD
-https://hls.peers.tv/streaming/ocean_tv/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=24979773 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2123 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=24979773 group-title="Познавательный", Открытый Мир
-https://hls.peers.tv/streaming/open_mir/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=26105855 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2754 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=26105855 group-title="Познавательный", NANO
-https://hls.peers.tv/streaming/nano_tv/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=28085543 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=3921 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=28085543 group-title="Познавательный", Russia Today Doc
-https://hls.peers.tv/streaming/russia_today_doc/126/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=168036533 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3890 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=168036533 cn-records=1 group-title="Спорт", Старт
-https://hls.peers.tv/streaming/start/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=26424221 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=1914 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=26424221 group-title="Эфир", БСТ
-https://hls.peers.tv/streaming/bst/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=17025835 recordable=true age-restriction=18
-#EXT-INETRA-STREAM-INF: id=4102 aspect-ratio=4:3 provider-id=2 crop=0:95
-#EXTINF:-1 cn-id=17025835 cn-records=1 group-title="Музыка", Шансон ТВ
-https://hls.peers.tv/streaming/shanson/16/gvh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=26563906 recordable=true age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=981 aspect-ratio=16:9 provider-id=2 has-timeshift=true
-#EXTINF:-1 cn-id=26563906 cn-records=1 group-title="Хобби и развлечения", Авто 24
-https://hls.peers.tv/streaming/avto_24/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=24979781 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2675 aspect-ratio=4:3 provider-id=2
-#EXTINF:-1 cn-id=24979781 cn-records=1 group-title="Хобби и развлечения", Русский Экстрим
-https://hls.peers.tv/streaming/ru_extrem/126/vh1/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=26552739 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3986 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=26552739 group-title="Музыка", BRIDGE HITS
-https://hls.peers.tv/streaming/dange_tv/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=30638962 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2340 aspect-ratio=4:3 provider-id=2
-#EXTINF:-1 cn-id=30638962 group-title="Эфир", Вся Уфа
-https://hls.peers.tv/streaming/vsya_ufa/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=31560316 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2752 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=31560316 group-title="Хобби и развлечения", Luxury
-https://hls.peers.tv/streaming/luxury_world/126/hd/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=36824328 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=1389 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=36824328 group-title="Познавательный", HD Наша Сибирь
-https://hls.peers.tv/streaming/nasha_sibir_hd/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=307588641 age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3449 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=307588641 group-title="Эфир", Мегаполис-ЮГРА
-https://hls.peers.tv/streaming/megapolis_yugra/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=24980068 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=1458 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=24980068 cn-records=1 group-title="Эфир", 8 канал
+#EXTINF:-1 group-title="Развлекательные" tvg-id="8kanal-ru" ,8 канал
 https://hls.peers.tv/streaming/8_kanal/16/gvh1w/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=36552407 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=604 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=36552407 group-title="Хобби и развлечения", СТРК
-https://hls.peers.tv/streaming/strk/126/copy/playlist.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="animetv" ,Anime TV
+https://hls.peers.tv/streaming/animetv/16/copy/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=36552407 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=4114 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=36552407 group-title="Хобби и развлечения", СТРК
-https://hls.peers.tv/streaming/strk/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=37715481 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=1433 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=37715481 group-title="Новости", Сделано в Кузбассе HD
-https://hls.peers.tv/streaming/sdelano_v_kuzbasse_hd/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=43469715 recordable=true age-restriction=16
-#EXT-INETRA-STREAM-INF: id=2037 aspect-ratio=4:3 provider-id=2 has-timeshift=true
-#EXTINF:-1 cn-id=43469715 cn-records=1 group-title="Эфир", ТИВИКОМ
-https://hls.peers.tv/streaming/tivikom/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=48903616 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=4113 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=48903616 group-title="Познавательный", Красная линия
-https://hls.peers.tv/streaming/red_line/126/vh1/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=49433560 age-restriction=16
-#EXT-INETRA-STREAM-INF: id=887 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=49433560 group-title="Познавательный", Надежда
-https://hls.peers.tv/streaming/hopetv/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=47828352 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2792 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=47828352 cn-records=1 group-title="Эфир", ТВК
-https://hls.peers.tv/streaming/tvk_6/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=43469877 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2495 aspect-ratio=4:3 provider-id=2
-#EXTINF:-1 cn-id=43469877 group-title="Эфир", Ариг Ус
-https://hls.peers.tv/streaming/arig_us/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=47803193 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=863 aspect-ratio=4:3 provider-id=2
-#EXTINF:-1 cn-id=47803193 cn-records=1 group-title="Хобби и развлечения", 8 канал Красноярский край
-https://hls.peers.tv/streaming/ya1pm/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=55738770 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4037 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=55738770 group-title="Эфир", Silk Way
-https://hls.peers.tv/streaming/kazakh_tv/16/h1080/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=56834712 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2257 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=56834712 group-title="Эфир", Катунь 24
-https://hls.peers.tv/streaming/katun_24/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=64071865 age-restriction=16
-#EXT-INETRA-STREAM-INF: id=1078 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=64071865 group-title="Клуб HD", 43 Канал
-https://hls.peers.tv/streaming/43_kanal/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=67075879 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=3822 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=67075879 group-title="Эфир", Туапсе24
-https://hls.peers.tv/streaming/tuapse24/126/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=71721978 recordable=true age-restriction=16
-#EXT-INETRA-STREAM-INF: id=1391 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=71721978 cn-records=1 group-title="Эфир", Центральное телевидение
-https://hls.peers.tv/streaming/tvc_ctv/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=79816352 recordable=true age-restriction=16
-#EXT-INETRA-STREAM-INF: id=1435 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=79816352 cn-records=1 group-title="Эфир", Евпатория ТВ
-https://hls.peers.tv/streaming/evpatorija/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=87147611 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=1475 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=87147611 group-title="Познавательный", Миллет
-https://hls.peers.tv/streaming/millet/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=89636400 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4375 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=89636400 cn-records=1 group-title="Хобби и развлечения", Продвижение
-https://stream2.otvc.ru:1935/live/asb.stream/chunklist_w847269674.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=96831396 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2813 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=96831396 group-title="Эфир", CCTV-4
-https://hls.peers.tv/streaming/cctv_4/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=101324146 age-restriction=18 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2170 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=101324146 group-title="Познавательный", Первый вегетарианский
-https://hls.peers.tv/streaming/pervyy_vegetarianskiy/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=94836861 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=4115 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=94836861 group-title="Эфир", Ника ТВ
-https://hls.peers.tv/streaming/nika/126/vh1/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=104183318 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=1922 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=104183318 group-title="Хобби и развлечения", Ратник
-https://hls.peers.tv/streaming/ratnik/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=109359578 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=1958 aspect-ratio=4:3 provider-id=2
-#EXTINF:-1 cn-id=109359578 group-title="Эфир", Инфо 24
-https://hls.peers.tv/streaming/shadr_info/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=109359578 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=4118 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=109359578 group-title="Эфир", Инфо 24
-https://hls.peers.tv/streaming/shadr_info/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=108225537 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2640 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=108225537 cn-records=1 group-title="Клуб HD", Наша Тема HD
-https://hls.peers.tv/streaming/nasha_tema/16/h1080/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=109821142 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=1953 aspect-ratio=16:9 provider-id=2 has-timeshift=true
-#EXTINF:-1 cn-id=109821142 cn-records=1 group-title="Хобби и развлечения", Диалоги о рыбалке
-https://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=109821148 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2884 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=109821148 cn-records=1 group-title="Эфир", Краснодар он-лайн
-https://hls.peers.tv/streaming/krasnodar_on_layn/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=38248897 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=719 aspect-ratio=4:3 provider-id=2
-#EXTINF:-1 cn-id=38248897 group-title="Эфир", Про100ТВ
-https://hls.peers.tv/streaming/pro100/126/copy_4_3/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=116949736 recordable=true territory-id=16
-#EXT-INETRA-STREAM-INF: id=2045 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=116949736 cn-records=1 group-title="Познавательный", Пёс и Ко
-https://hls.peers.tv/streaming/pyos_i_ko/16/vh1/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=109821154 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2180 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=109821154 group-title="Эфир", Архыз24
-https://hls.peers.tv/streaming/arhyz24/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=117898419 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=4117 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=117898419 group-title="Эфир", Барс
-https://hls.peers.tv/streaming/barsplus/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=123495273 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4282 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=123495273 group-title="Познавательный", Большая Азия
-https://hls.peers.tv/streaming/bolshaya_aziya/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=118911824 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4119 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=118911824 cn-records=1 group-title="Эфир", ОРТРК-12 КАНАЛ
-https://hls.peers.tv/streaming/ortrk12/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=127241468 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2206 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=127241468 group-title="Эфир", С1
-https://hls.peers.tv/streaming/s1/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=127241468 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4342 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=127241468 group-title="Эфир", С1
-https://hls.peers.tv/streaming/s1/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=127241471 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2205 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=127241471 group-title="Эфир", 86
-https://hls.peers.tv/streaming/86/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=131147250 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2692 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=131147250 cn-records=1 group-title="Эфир", НТС
-https://hls.peers.tv/streaming/nts/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=127427302 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2229 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=127427302 group-title="Эфир", ТМ-КВАНТ
-https://hls.peers.tv/streaming/tmkvant/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=136101375 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2313 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=136101375 group-title="Эфир", Саратов 24
-https://hls.peers.tv/streaming/saratov_24/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=139955786 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2810 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=139955786 group-title="Эфир", CGTN
-https://hls.peers.tv/streaming/cgtn/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=137082623 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2262 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=137082623 cn-records=1 group-title="Эфир", Башкортостан 24
-https://hls.peers.tv/streaming/bashkortostan_24/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=138166196 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2297 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=138166196 group-title="Эфир", Алмазный край
-https://hls.peers.tv/streaming/almazny_kray/16/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=142827299 age-restriction=16 territory-id=4
-#EXT-INETRA-STREAM-INF: id=2847 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=142827299 group-title="Эфир", Кузбасс 1
-https://hls.peers.tv/streaming/gtrk_kuzbass/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=158698805 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2789 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=158698805 cn-records=1 group-title="Эфир", ДОН 24
-https://hls.peers.tv/streaming/don_24/126/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=160801739 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2529 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=160801739 group-title="Эфир", 24KZ
-https://hls.peers.tv/streaming/habar_24/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=181648648 age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2815 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=181648648 group-title="Эфир", CGTN Русский
+#EXTINF:-1 group-title="Познавательные" tvg-id="cctv-ru",CGTN Русский
 https://hls.peers.tv/streaming/cgtn_russkiy/126/copy/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=179001108 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3148 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=179001108 cn-records=1 group-title="Эфир", Самотлор
-https://hls.peers.tv/streaming/samotlor/16/copy_a/playlist.m3u8
+#EXTINF:-1 group-title="Стиль жизни" tvg-id="fashion-tv" ,Fashion TV HD
+https://hls.peers.tv/streaming/fashdon/16/copy_a/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=182649999 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2830 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=182649999 cn-records=1 group-title="Эфир", Салям
-https://hls.peers.tv/streaming/salyam/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=192826379 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2869 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=192826379 cn-records=1 group-title="Эфир", Канал 12
-https://hls.peers.tv/streaming/kanal_12/126/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=192826379 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=4116 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=192826379 cn-records=1 group-title="Эфир", Канал 12
-https://hls.peers.tv/streaming/kanal_12/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=220482648 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2981 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=220482648 cn-records=1 group-title="Эфир", Лен ТВ24
-https://hls.peers.tv/streaming/len_tv24/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=28035985 recordable=true age-restriction=18 territory-id=126
-#EXT-INETRA-STREAM-INF: id=1380 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=28035985 cn-records=1 group-title="Эфир", Санкт-Петербург
-https://hls.peers.tv/streaming/topspb/126/vh1w/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=124276627 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=2168 aspect-ratio=16:9 provider-id=2 has-timeshift=true
-#EXTINF:-1 cn-id=124276627 cn-records=1 group-title="Познавательный", ЕГЭ
-https://hls.peers.tv/streaming/ege/16/vh1/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=355423871 recordable=true age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=3927 aspect-ratio=16:9 provider-id=2 audio-language="ru" subtitles-language="ru"
-#EXTINF:-1 cn-id=355423871 cn-records=1 group-title="Хобби и развлечения", ОК!
-https://hls.peers.tv/streaming/ok/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=404382476 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4137 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=404382476 group-title="Познавательный", TOO MUCH BUSINESS
-https://hls.peers.tv/streaming/muchbusiness/16/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=425508493 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4203 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=425508493 group-title="Эфир", Благая весть
-https://hls.peers.tv/streaming/good_news/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=446108162 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4430 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=446108162 group-title="Хобби и развлечения", Новый Игровой Канал
-https://hls.peers.tv/streaming/niktv/16/copy/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=494606911 age-restriction=12 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4380 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=494606911 group-title="Познавательный", Квадро HD
-https://hls.peers.tv/streaming/kvadro_hd/16/copy_a/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=503839820 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4403 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=503839820 group-title="Хобби и развлечения", Joy Cook
+#EXTINF:-1 group-title="Хобби и увлечения" ,Joy Cook
 https://hls.peers.tv/streaming/joy_cook/16/copy/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=503842316 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4407 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=503842316 group-title="Познавательный", Неизвестная планета
-https://hls.peers.tv/streaming/neizvestnaya_planeta/16/copy_a/playlist.m3u8
+#EXTINF:-1 group-title="Стиль жизни" tvg-id="luxury" ,Luxury
+https://hls.peers.tv/streaming/luxury_world/126/hd/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=503842356 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4409 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=503842356 group-title="Познавательный", Терра Инкогнита
-https://hls.peers.tv/streaming/terra_inkognito/16/copy/playlist.m3u8
+#EXTINF:-1 group-title="Познавательные" tvg-id="ocean-tv" ,Ocean-TV HD
+https://hls.peers.tv/streaming/ocean_tv/16/copy_a/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=512046055 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4423 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=512046055 group-title="Хобби и развлечения", Народ Все Видит
+#EXTINF:-1 group-title="Развлекательные" tvg-id="quadro4k" ,QUADRO HD
+https://hls.peers.tv/streaming/kvadro_hd/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="nano-hd" ,Nano
+https://hls.peers.tv/streaming/nano_tv/126/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Стиль жизни" ,ОК!
+https://hls.peers.tv/streaming/ok/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="rtg-tv" ,RTG TV
+https://hls.peers.tv/streaming/rustravel/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="rtd-ru" ,RTД HD
+https://hls.peers.tv/streaming/russia_today_doc/126/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" ,TOO MUCH BUSINESS
+https://hls.peers.tv/streaming/muchbusiness/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="silkway" ,Silk Way
+https://hls.peers.tv/streaming/kazakh_tv/16/h1080/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="terra-ru" ,TERRA HD
+http://api.peers.tv/timeshift/terra_hd/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="the-explorers" ,The Explorers
+https://hls.peers.tv/streaming/the_explorers/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="travel-adventure" ,Travel+Adventure
+http://api.peers.tv/timeshift/travad/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="zoopark" ,Zooпарк
+https://hls.peers.tv/streaming/zoopark/126/tvrec/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="avto24" ,АВТО24
+https://hls.peers.tv/streaming/avto_24/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="art-tv" ,Арт
+https://hls.peers.tv/streaming/art_tv/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Религия" ,Благая весть
+https://hls.peers.tv/streaming/good_news/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="bolshaya-azia" ,Большая Азия
+https://hls.peers.tv/streaming/bolshaya_aziya/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="glazami-turista" ,Глазами туриста HD
+https://hls.peers.tv/streaming/glazami_turista_hd/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="dialogi-o-rybalke" ,Диалоги о рыбалке
+https://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="ege-tv" ,ЕГЭ
+https://hls.peers.tv/streaming/ege/16/vh1/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="zhivaya-priroda" ,Живая природа HD
+https://hls.peers.tv/streaming/zhivaya_priroda_hd/16/h1080/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="zhivi-aktivno" ,Живи активно HD
+https://hls.peers.tv/streaming/zhivi_aktivno_hd/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="kluch",Ключ
+https://hls.peers.tv/streaming/klyuch/126/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="krasnaya-linia" ,Красная Линия
+https://hls.peers.tv/streaming/red_line/126/vh1/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="myy" ,МЫ
+https://hls.peers.tv/streaming/mi/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Религия" tvg-id="nadezhda" ,Надежда
+https://hls.peers.tv/streaming/hopetv/126/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="narod-vsio-vidit" ,Народ Всё Видит
 https://hls.peers.tv/streaming/narod_vidit/16/copy/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=512046063 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4425 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=512046063 group-title="Познавательный", Top Secret
+#EXTINF:-1 group-title="Познавательные" tvg-id="nasha-sibir-4k" ,Наша Сибирь
+https://hls.peers.tv/streaming/nasha_sibir/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="nasha-sibir-4k" ,Наша Сибирь HD
+https://hls.peers.tv/streaming/nasha_sibir_hd/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="nasha-tema" ,Наша тема HD
+https://hls.peers.tv/streaming/nasha_tema/16/h1080/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="neizvestnaya-planeta" ,Неизвестная Планета
+https://hls.peers.tv/streaming/neizvestnaya_planeta/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="nowy-igrowoj" ,Новый Игровой Канал
+https://hls.peers.tv/streaming/niktv/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="ntv-pravo" ,НТВ Право
+https://hls.peers.tv/streaming/ntv_pravo/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Стиль жизни" tvg-id="ntv-style" ,НТВ Стиль
+https://hls.peers.tv/streaming/ntv_stil/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="otkryty-mir" ,Открытый мир
+https://hls.peers.tv/streaming/open_mir/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="pervy-vegetariansky" ,Первый вегетарианский
+https://hls.peers.tv/streaming/pervyy_vegetarianskiy/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="pes-i-ko" ,Пёс и Ко
+https://hls.peers.tv/streaming/pyos_i_ko/16/vh1/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="pro100" ,Про100 ТВ
+https://hls.peers.tv/streaming/pro100/126/copy_4_3/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="prodvizhenie" ,Продвижение
+https://stream2.otvc.ru:1935/live/asb.stream/chunklist_w847269674.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="ratnik" ,Ратник
+https://hls.peers.tv/streaming/ratnik/126/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="sovsek" ,Совершенно секретно
 https://hls.peers.tv/streaming/top_secret/16/copy/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=26552802 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4032 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=26552802 group-title="Музыка", BRIDGE РУССКИЙ ХИТ
+#EXTINF:-1 group-title="Развлекательные" tvg-id="sts-love" ,СТС Love
+https://hls.peers.tv/streaming/sts_love/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="tayna" ,Тайна
+https://hls.peers.tv/streaming/tayna/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="galaxy-tv" ,Тайны Галактики
+https://hls.peers.tv/streaming/galaxy_tv/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="terra-inkognita" ,Терра Инкогнита
+https://hls.peers.tv/streaming/terra_inkognito/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="centralnoye-tv" ,Центральное Телевидение
+https://hls.peers.tv/streaming/tvc_ctv/126/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="che" ,Че!
+https://hls.peers.tv/streaming/perec/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="yu" ,Ю
+https://hls.peers.tv/streaming/utv/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Спорт" tvg-id="russky-ekstrim" ,Russian Extreme
+https://hls.peers.tv/streaming/ru_extrem/126/vh1/playlist.m3u8
+
+#EXTINF:-1 group-title="Спорт" tvg-id="match-tv" ,Матч!
+https://hls.peers.tv/streaming/sport/126/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Спорт" tvg-id="match-tv" ,Матч!
+http://hls.peers.tv/streaming/sport/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Спорт" tvg-id="start" ,Старт
+https://hls.peers.tv/streaming/start/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="bridge-tv" ,BRIDGE
+https://hls.peers.tv/streaming/bridge/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="bridge-tv-dance" ,BRIDGE HITS
+https://hls.peers.tv/streaming/dange_tv/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="bridge-tv-ruxit" ,BRIDGE Русский Хит
 https://hls.peers.tv/streaming/rusong_tv/16/vh1/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=117302521 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2051 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=117302521 group-title="Музыка", МатурТВ
-https://hls.peers.tv/streaming/matur/126/vh1w/playlist.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-id="ru-tv" ,RU.TV HD
+https://hls.peers.tv/streaming/rutv/16/tvrec/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=163342039 age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2603 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=163342039 group-title="Музыка", SONGTV Russia
-https://hls.peers.tv/streaming/songtv_russia/126/tvrecw/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=398721557 territory-id=16
-#EXT-INETRA-STREAM-INF: id=4129 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=398721557 group-title="Обязательные", Музыка Мода ТВ
-https://hls.peers.tv/streaming/muzyka_moda_tv/16/h1080/playlist.m3u8
-
-#EXT-INETRA-CHANNEL-INF: channel-id=35563909 recordable=true age-restriction=16 territory-id=126
-#EXT-INETRA-STREAM-INF: id=2763 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=35563909 cn-records=1 group-title="Музыка", SONGTV Armenia
+#EXTINF:-1 group-title="Музыка" tvg-id="song-tv" ,SongTV Armenia
 https://hls.peers.tv/streaming/songtv_armenia/126/copy/playlist.m3u8
 
-#EXT-INETRA-CHANNEL-INF: channel-id=24984577 age-restriction=16 territory-id=16
-#EXT-INETRA-STREAM-INF: id=1513 aspect-ratio=16:9 provider-id=2
-#EXTINF:-1 cn-id=24984577 group-title="Музыка", Муз ТВ
+#EXTINF:-1 group-title="Музыка" tvg-id="song-tv-ru" ,SongTV Russia
+https://hls.peers.tv/streaming/songtv_russia/126/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="matur-tv" ,Матур ТВ
+https://hls.peers.tv/streaming/matur/126/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="muztv" ,МУЗ-ТВ
 https://hls.peers.tv/streaming/muz_tvnew/16/gvh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="muzykamodatv" ,Музыка Мода ТВ
+https://hls.peers.tv/streaming/muzyka_moda_tv/16/h1080/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="tnt-music" ,ТНТ MUSIC
+https://hls.peers.tv/streaming/tnt_music/126/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="tnt-music" ,ТНТ MUSIC
+https://hls.peers.tv/streaming/tnt_music/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-id="shanson-tv" ,Шансон ТВ
+https://hls.peers.tv/streaming/shanson/16/gvh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-id="ducktv" ,Duck TV
 https://hls.peers.tv/streaming/ducktv/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-id="ducktv" ,Duck TV
 https://hls.peers.tv/streaming/ducktv/16/h720/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="familyjam" ,FamilyJam
+http://api.peers.tv/timeshift/familyjam/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="gulli-girl" ,Gulli Girl
+http://api.peers.tv/timeshift/gulli_girl/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="tiji" ,TiJi
+http://api.peers.tv/timeshift/tiji/16/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="v-gostiax-u-skazki" ,В гостях у сказки HD
+http://api.peers.tv/timeshift/v_gostyah_u_skazki/16/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-id="detsky-mir" ,Детский Мир
 https://hls.peers.tv/streaming/detskij_mir/16/copy_a/playlist.m3u8
@@ -743,6 +459,18 @@ https://hls.peers.tv/streaming/multimania/126/vh1w/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-id="multsezon" ,МультСезон
 https://hls.peers.tv/streaming/cartoon_season/16/vh1w/playlist.m3u8
 
+#EXTINF:-1 group-title="Детские" tvg-id="o_",О!
+https://hls.peers.tv/streaming/o/16/copy/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="radost-moya" ,Радость Моя
+https://hls.peers.tv/streaming/radost_moj/16/vh1w/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="ryzhy" ,Рыжий
+https://hls.peers.tv/streaming/red/16/tvrec/playlist.m3u8
+
+#EXTINF:-1 group-title="Детские" tvg-id="ryzhy" ,Рыжий
+https://hls.peers.tv/streaming/red/16/tvrecw/playlist.m3u8
+
 #EXTINF:-1 group-title="Детские" tvg-id="skazki-zayki" ,Сказки Зайки
 https://hls.peers.tv/streaming/skazkizayki/16/variable.m3u8
 
@@ -758,11 +486,11 @@ https://hls.peers.tv/streaming/solntse/16/gvh1w/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-id="detsky" ,Уникум
 https://hls.peers.tv/streaming/forkids/16/vh1w/playlist.m3u8
 
-#EXTINF:-1 cn-id=24984479 group-title="Хобби и развлечения", LEOMAX24
+#EXTINF:-1 group-title="Телемагазины",LEOMAX24
 https://hls.peers.tv/streaming/shop24/16/copy_a/playlist.m3u8
 
-#EXTINF:-1 cn-id=84540928 cn-records=1 group-title="Хобби и развлечения", Ювелирочка
+#EXTINF:-1 group-title="Телемагазины",Мой мир
+https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
-
-
-

@@ -106,16 +106,13 @@ http://api.peers.tv/timeshift/set/16/playlist.m3u8&offset=10
 http://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="4k-ruskino" ,4K Русское кино
-#EXTVLCOPT:http-referrer=https://peers.tv/
 https://hls.peers.tv/streaming/ru_kino4k/16/copy/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="kino-24" ,Kino 24
-#EXTVLCOPT:http-referrer=https://peers.tv/
 https://hls.peers.tv/streaming/kino24/126/vh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinojam2" ,KinoJam 2
-#EXTVLCOPT:http-referrer=https://peers.tv/
-http://api.peers.tv/timeshift/kinojam/16/playlist.m3u8
+http://api.peers.tv/timeshift/kinojam/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="saga-tv" ,SAGA TV
 http://api.peers.tv/timeshift/saga_tv/16/playlist.m3u8
@@ -498,6 +495,7 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
+
 
 
 

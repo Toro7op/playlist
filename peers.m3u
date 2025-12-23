@@ -139,6 +139,7 @@ https://hls.peers.tv/streaming/vhs_ka/16/copy/playlist.m3u8
 https://hls.peers.tv/streaming/vhs_serial/16/copy/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="domkino" ,Дом кино
+#EXTVLCOPT:http-referrer=https://peers.tv/
 https://hls.peers.tv/streaming/dom_kino/16/gvh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="dorama" ,Дорама
@@ -500,4 +501,5 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
+
 

@@ -16,7 +16,7 @@ https://hls.peers.tv/streaming/rossija/16/tvrecw/playlist.m3u8
 https://hls.peers.tv/streaming/ntv/126/vh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="ntv" ,НТВ
-http://hls.peers.tv/streaming/ntv/16/gvh1w/playlist.m3u8?token=вставитьсвой
+http://hls.peers.tv/streaming/ntv/16/gvh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="5kanal-ru" ,Пятый канал
 https://hls.peers.tv/streaming/5kanal/16/gvh1w/playlist.m3u8
@@ -498,6 +498,7 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
+
 
 
 

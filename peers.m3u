@@ -67,9 +67,6 @@ https://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?offset=10
 https://api.peers.tv/timeshift/mir24/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="mir-24" ,Мир 24 HD
-https://hls.peers.tv/streaming/mir24hd/126/copy/playlist.m3u8
-
-#EXTINF:-1 group-title="Информационные" tvg-id="mir-24" ,Мир 24 HD
 https://hls.peers.tv/streaming/mir24hd/126/fullhd/playlist.m3u8
 
 #EXTINF:-1 group-title="Информационные" tvg-id="moskva-24" ,Москва 24
@@ -551,6 +548,7 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
+
 
 
 

@@ -49,16 +49,16 @@ https://api.peers.tv/timeshift/mir/126/playlist.m3u8?offset=10
 https://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="360-news" ,360 Новости
-https://hls.peers.tv/streaming/360_novosti/126/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/360_novosti/126/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="vmeste-rf" ,ВМЕСТЕ-РФ
 https://hls.peers.tv/streaming/vmeste_rf/126/tvrecw/playlist.m3u8
 
 #EXTINF:-1 group-title="Информационные" tvg-id="izvestia" ,Известия HD
-https://hls.peers.tv/streaming/izvestiya_hd/16/copy/playlist.m3u8
+https://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="krik-tv" ,Крик
-https://hls.peers.tv/streaming/krik_tv/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/krik_tv/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="ldpr-tv" ,ЛДПР ТВ
 https://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?offset=10
@@ -74,9 +74,6 @@ https://hls.peers.tv/streaming/mir24hd/126/fullhd/playlist.m3u8
 
 #EXTINF:-1 group-title="Информационные" tvg-id="moskva-24" ,Москва 24
 https://api.peers.tv/timeshift/moskva_24/126/playlist.m3u8?offset=10
-
-#EXTINF:-1 group-title="Информационные" tvg-id="rbk" ,РБК
-https://api.peers.tv/timeshift/rbk/126/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="rbk" ,РБК
 https://api.peers.tv/timeshift/rbk/16/playlist.m3u8?offset=10
@@ -554,5 +551,6 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
+
 
 

@@ -4,13 +4,13 @@
 https://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="rossia1" ,Россия 1
-https://hls.peers.tv/streaming/rossija/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/rossija/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="ntv" ,НТВ
 https://api.peers.tv/timeshift/ntv/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="5kanal-ru" ,Пятый канал
-https://hls.peers.tv/streaming/5kanal/16/gvh1w/playlist.m3u8
+https://api.peers.tv/timeshift/5kanal/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="kultura" ,Россия К
 https://api.peers.tv/timeshift/kultura/16/playlist.m3u8?offset=10
@@ -19,19 +19,19 @@ https://api.peers.tv/timeshift/kultura/16/playlist.m3u8?offset=10
 https://api.peers.tv/timeshift/otvrus/126/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="tvcentr" ,ТВ Центр
-https://api.peers.tv/timeshift/tvc/126/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tvc/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="rentv" ,РЕН ТВ
-https://hls.peers.tv/streaming/rentv/16/g2500/playlist.m3u8
+https://api.peers.tv/timeshift/rentv/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="spas" ,Спас
 https://api.peers.tv/timeshift/spas/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="sts" ,СТС
-https://hls.peers.tv/streaming/sts/16/g2500/playlist.m3u8
+https://api.peers.tv/timeshift/sts/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="domashny" ,Домашний
-https://hls.peers.tv/streaming/domashny/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/domashny/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="tv3-ru" ,ТВ3
 https://api.peers.tv/timeshift/tv3/16/playlist.m3u8?offset=10
@@ -40,7 +40,7 @@ https://api.peers.tv/timeshift/tv3/16/playlist.m3u8?offset=10
 https://api.peers.tv/timeshift/friday/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="zvezda" ,Звезда
-https://hls.peers.tv/streaming/zvezda/126/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/zvezda/16/playlist.m3u8?offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="mir" ,Мир
 https://api.peers.tv/timeshift/mir/126/playlist.m3u8?offset=10
@@ -554,4 +554,5 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
+
 

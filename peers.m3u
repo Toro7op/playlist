@@ -1,190 +1,202 @@
 #EXTM3U catchup="append" catchup-days="3" catchup-source="&offset=${offset}" 
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="pervy" ,Первый канал HD
-https://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8&offset=10
 
-#EXTINF:-1 group-title="Федеральные" tvg-id="rossia1" ,Россия 1
-https://api.peers.tv/timeshift/rossija/16/playlist.m3u8?offset=10
+#EXTINF:-1 group-title="Федеральные" tvg-id="rossia1" ,Россия 1 HD
+https://api.peers.tv/timeshift/russiahd/16/playlist.m3u8&offset=10
 
-#EXTINF:-1 group-title="Федеральные" tvg-id="ntv" ,НТВ
-https://api.peers.tv/timeshift/ntv/16/playlist.m3u8?offset=10
+#EXTINF:-1 group-title="Федеральные" tvg-id="ntv" ,НТВ HD
+https://api.peers.tv/timeshift/ntv_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="5kanal-ru" ,Пятый канал
-https://api.peers.tv/timeshift/5kanal/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/5kanal/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="kultura" ,Россия К
-https://api.peers.tv/timeshift/kultura/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kultura/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="otr" ,ОТР
-https://api.peers.tv/timeshift/otvrus/126/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/otvrus/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="tvcentr" ,ТВ Центр
-https://api.peers.tv/timeshift/tvc/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tvc/16/playlist.m3u8&offset=10
 
-#EXTINF:-1 group-title="Федеральные" tvg-id="rentv" ,РЕН ТВ
-https://api.peers.tv/timeshift/rentv/16/playlist.m3u8?offset=10
+#EXTINF:-1 group-title="Федеральные" tvg-id="rentv" ,РЕН ТВ HD
+https://api.peers.tv/timeshift/ren_tv_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="spas" ,Спас
-https://api.peers.tv/timeshift/spas/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/spas/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="sts" ,СТС
-https://api.peers.tv/timeshift/sts/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/sts/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="domashny" ,Домашний
-https://api.peers.tv/timeshift/domashny/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/domashny/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="tv3-ru" ,ТВ3
-https://api.peers.tv/timeshift/tv3/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv3/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="piatnica" ,Пятница!
-https://api.peers.tv/timeshift/friday/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/friday/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="zvezda" ,Звезда
-https://api.peers.tv/timeshift/zvezda/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/zvezda/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="mir" ,Мир
-https://api.peers.tv/timeshift/mir/126/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/mir/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="tnt" ,ТНТ HD
-https://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tnt_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="360-news" ,360 Новости
-https://api.peers.tv/timeshift/360_novosti/126/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/360_novosti/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="vmeste-rf" ,ВМЕСТЕ-РФ
 https://hls.peers.tv/streaming/vmeste_rf/126/tvrecw/playlist.m3u8
 
 #EXTINF:-1 group-title="Информационные" tvg-id="izvestia" ,Известия HD
-https://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/izvestiya_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="krik-tv" ,Крик
-https://api.peers.tv/timeshift/krik_tv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/krik_tv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="ldpr-tv" ,ЛДПР ТВ
-https://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/ldpr_tv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="mir-24" ,Мир 24
-https://api.peers.tv/timeshift/mir24/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/mir24/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="mir-24" ,Мир 24 HD
 https://hls.peers.tv/streaming/mir24hd/126/fullhd/playlist.m3u8
 
 #EXTINF:-1 group-title="Информационные" tvg-id="moskva-24" ,Москва 24
-https://api.peers.tv/timeshift/moskva_24/126/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/moskva_24/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="rbk" ,РБК
-https://api.peers.tv/timeshift/rbk/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/rbk/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Информационные" tvg-id="rossia-24" ,Россия 24
-https://api.peers.tv/timeshift/vesti/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/vesti/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="sony-turbo" ,.black
-https://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/sony_turbo/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="sony-tv" ,.red
-https://api.peers.tv/timeshift/set/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/set/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="sony-scifi" ,.sci-fi
-https://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/sonyscifi/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="4k-ruskino" ,4K Русское кино
-https://api.peers.tv/timeshift/ru_kino4k/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/ru_kino4k/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Кино" tvg-id="bolt-ru" ,Bolt HD
+https://api.peers.tv/timeshift/bolt_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="cinema-ru" ,Cinema
-https://api.peers.tv/timeshift/ipark/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/ipark/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="fanhd" ,FAN HD
-https://api.peers.tv/timeshift/fan_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/fan_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="filmbox-arthouse" ,FilmBox ArtHouse
-https://api.peers.tv/timeshift/filmbox_arthouse/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/filmbox_arthouse/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Кино" tvg-id="filmbox-ru" ,FilmBox Russia
+https://api.peers.tv/timeshift/filmbox/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kino-24" ,Kino 24
-https://api.peers.tv/timeshift/kino24/126/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kino24/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinojam2" ,KinoJam 2
-https://api.peers.tv/timeshift/kinojam/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kinojam/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="saga-tv" ,SAGA TV
-https://api.peers.tv/timeshift/saga_tv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/saga_tv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="silk-way-cinema" ,Silk Way Cinema
 https://hls.peers.tv/streaming/silk_way_cinema/16/copy_a/playlist.m3u8
 
+#EXTINF:-1 group-title="Кино" tvg-id="star-family" ,Star Family HD
+https://api.peers.tv/timeshift/star_family_hd/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Кино" tvg-id="timeless-dizi" ,Timeless Dizi Channel
-https://api.peers.tv/timeshift/timeless_dizi_channel/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/timeless_dizi_channel/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="vhs-ka" ,VHS-KA
-https://api.peers.tv/timeshift/vhs_ka/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/vhs_ka/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="vhska-serial" ,VHS-Сериал HD
-https://api.peers.tv/timeshift/vhs_serial/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/vhs_serial/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Кино" tvg-id="tv1000" ,viju TV1000
+https://api.peers.tv/timeshift/tv1000/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="tv1000-action" ,viju TV1000 action
-https://api.peers.tv/timeshift/tv1000_action/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv1000_action/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="tv1000-russkoe-kino" ,viju TV1000 русское
-https://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv_1000_rus_kino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="vip-comedy" ,viju+ Comedy HD
-https://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv1000_comedy_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="vip-megahit" ,viju+ Megahit HD
-https://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv1000_megahit_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="vip-premiere" ,viju+ Premiere HD
-https://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv1000_premium_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="vip-serial" ,viju+ Serial HD
-https://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/viasat_golf_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="domkino" ,Дом кино
-https://api.peers.tv/timeshift/dom_kino/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/dom_kino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="domkino-premium" ,Дом кино Премиум
-https://api.peers.tv/timeshift/dom_kino_premium/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/dom_kino_premium/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="dorama" ,Дорама
-https://api.peers.tv/timeshift/dorama/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/dorama/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="illuzion-plus" ,Иллюзион+
-https://api.peers.tv/timeshift/illyuzion/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/illyuzion/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="indiyskoe-kino" ,Индийское кино
-https://api.peers.tv/timeshift/indiatv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/indiatv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="zee-tv" ,Индия
-https://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/zee-tv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kineko" ,КИНЕКО HD
-https://api.peers.tv/timeshift/kineko_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kineko_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kino-tv" ,Кино ТВ HD
-https://api.peers.tv/timeshift/kino_tv_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kino_tv_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinopokaz" ,Кинопоказ
-https://api.peers.tv/timeshift/kinopokaz/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kinopokaz/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinokomedia" ,КИНОКОМЕДИЯ
-https://api.peers.tv/timeshift/comedytv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/comedytv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinomiks" ,КИНОМИКС
-https://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/ntv_kino_plyus/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinopremiera-hd" ,КИНОПРЕМЬЕРА HD
-https://api.peers.tv/timeshift/premera/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/premera/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinosat" ,Киносат
-https://api.peers.tv/timeshift/kinosat/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kinosat/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinosvidanie" ,КИНОСВИДАНИЕ HD
-https://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kinoklub/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinosezon" ,КиноСезон
 https://stitch.teletarget.ru/peerstv/movieseason/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinosemiya" ,КИНОСЕМЬЯ HD
-https://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/hd_kino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinoseria" ,КИНОСЕРИЯ
 https://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8&offset=10
@@ -193,64 +205,73 @@ https://api.peers.tv/timeshift/kinoseriya/16/playlist.m3u8&offset=10
 https://api.peers.tv/timeshift/kinouzhas/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="kinoxit" ,КИНОХИТ HD
-https://api.peers.tv/timeshift/kinohit/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/kinohit/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="klassika-kino" ,Классика кино
-https://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/klassikakino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="legenda" ,Легенда
-https://api.peers.tv/timeshift/legenda/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/legenda/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="lubimoe-kino" ,Любимое Кино
-https://api.peers.tv/timeshift/favmovie/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/favmovie/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="mir-seriala" ,Мир сериала
-https://api.peers.tv/timeshift/mir_seriala/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/mir_seriala/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="mosfilm" ,Мосфильм. Золотая коллекция HD
-https://api.peers.tv/timeshift/mosfilm_zolotaya_kollektsiya_hd/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/mosfilm_zolotaya_kollektsiya_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="muzhskoe-kino" ,МУЖСКОЕ КИНО HD
 https://api.peers.tv/timeshift/muzhskoe_kino_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="nst" ,Настоящее Страшное Телевидение
-https://api.peers.tv/timeshift/nstv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/nstv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="nashe-novoe-kino" ,НАШЕ НОВОЕ КИНО
-https://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/nashe_novoe_kino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="ntv-serial" ,НТВ Сериал
 https://hls.peers.tv/streaming/ntv_serial/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Кино" tvg-id="pobeda" ,Победа HD
+https://api.peers.tv/timeshift/pobeda_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="rodnoe-kino" ,РОДНОЕ КИНО
 https://api.peers.tv/timeshift/ntv_nashe_kino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="russky-bestseller" ,Русский бестселлер
-https://api.peers.tv/timeshift/russia_best/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/russia_best/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="russky-detektiv" ,Русский детектив
-https://api.peers.tv/timeshift/russkiy_detektiv/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/russkiy_detektiv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="russky-illuzion" ,Русский Иллюзион
-https://api.peers.tv/timeshift/russian_illusion/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/russian_illusion/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="russky-roman" ,Русский Роман
-https://api.peers.tv/timeshift/russian_roman/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/russian_roman/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="sapfir" ,САПФИР HD
 https://api.peers.tv/timeshift/sapfir_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="sovkino" ,Советское кино
-https://api.peers.tv/timeshift/sovetskoekino/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/sovetskoekino/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Кино" tvg-id="tvxxi" ,ТВ-21
-https://api.peers.tv/timeshift/tv21/16/playlist.m3u8?offset=10
+https://api.peers.tv/timeshift/tv21/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="mir-uvlecheniy",#КтоКуда
+https://api.peers.tv/timeshift/mir_uvlecheniy/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="360-podmoskovie" ,360
 https://hls.peers.tv/streaming/360tv/126/vh1w/playlist.m3u8
 
+#EXTINF:-1 group-title="Познавательные" tvg-id="365-dnej" ,365 дней ТВ
+https://api.peers.tv/timeshift/365_days/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Развлекательные" tvg-id="8kanal-ru" ,8 канал
-https://hls.peers.tv/streaming/8_kanal/16/gvh1w/playlist.m3u8
+https://api.peers.tv/timeshift/8_kanal/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="animetv" ,Anime TV
 https://hls.peers.tv/streaming/animetv/16/copy/playlist.m3u8
@@ -258,8 +279,17 @@ https://hls.peers.tv/streaming/animetv/16/copy/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-id="cctv-ru",CGTN Русский
 https://hls.peers.tv/streaming/cgtn_russkiy/126/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Познавательные" tvg-id="da-vinci",Da Vinci
+https://api.peers.tv/timeshift/da_vinci/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="docubox-hd",DocuBox HD
+https://api.peers.tv/timeshift/docubox_hd/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Стиль жизни" tvg-id="fashion-tv" ,Fashion TV HD
 https://hls.peers.tv/streaming/fashdon/16/copy_a/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="eda-hd",FoodTime
+https://api.peers.tv/timeshift/eda_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Хобби и увлечения" ,Joy Cook
 https://hls.peers.tv/streaming/joy_cook/16/copy/playlist.m3u8
@@ -277,7 +307,7 @@ https://hls.peers.tv/streaming/kvadro_hd/16/copy_a/playlist.m3u8
 https://hls.peers.tv/streaming/nano_tv/126/vh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Стиль жизни" ,ОК!
-https://hls.peers.tv/streaming/ok/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/ok/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="rtg-tv" ,RTG TV
 https://hls.peers.tv/streaming/rustravel/16/copy/playlist.m3u8
@@ -289,25 +319,37 @@ https://hls.peers.tv/streaming/russia_today_doc/126/copy_a/playlist.m3u8
 https://hls.peers.tv/streaming/muchbusiness/16/tvrecw/playlist.m3u8
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="silkway" ,Silk Way
-https://hls.peers.tv/streaming/kazakh_tv/16/h1080/playlist.m3u8
+https://api.peers.tv/timeshift/kazakh_tv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="terra-ru" ,TERRA HD
-http://api.peers.tv/timeshift/terra_hd/16/playlist.m3u8&offset=10
+https://api.peers.tv/timeshift/terra_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="the-explorers" ,The Explorers
-https://hls.peers.tv/streaming/the_explorers/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/the_explorers/16/playlist.m3u8&offset=10
 
-#EXTINF:-1 group-title="Познавательные" tvg-id="travel-adventure" ,Travel+Adventure
-http://api.peers.tv/timeshift/travad/16/playlist.m3u8&offset=10
+#EXTINF:-1 group-title="Познавательные" tvg-id="travel-adventure" ,Travel+Adventure HD
+https://api.peers.tv/timeshift/travel_adventure_hd/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="viasat-explore" ,viju Explore
+https://api.peers.tv/timeshift/viasat_explorer/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="viasat-history" ,viju History
+https://api.peers.tv/timeshift/viasat_history/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="viasat-nature" ,viju Nature
+https://api.peers.tv/timeshift/viasat_nature/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="zoopark" ,Zooпарк
-https://hls.peers.tv/streaming/zoopark/126/tvrec/playlist.m3u8
+https://api.peers.tv/timeshift/zoopark/126/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="avto-plus" ,Авто Плюс
+https://api.peers.tv/timeshift/auto_plus/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="avto24" ,АВТО24
-https://hls.peers.tv/streaming/avto_24/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/avto_24/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="art-tv" ,Арт
-https://hls.peers.tv/streaming/art_tv/16/copy_a/playlist.m3u8
+https://api.peers.tv/timeshift/art_tv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Религия" ,Благая весть
 https://hls.peers.tv/streaming/good_news/16/copy_a/playlist.m3u8
@@ -315,14 +357,23 @@ https://hls.peers.tv/streaming/good_news/16/copy_a/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-id="bolshaya-azia" ,Большая Азия
 https://hls.peers.tv/streaming/bolshaya_aziya/16/tvrecw/playlist.m3u8
 
+#EXTINF:-1 group-title="Развлекательные" tvg-id="vremia" ,Время
+https://api.peers.tv/timeshift/time/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Развлекательные" tvg-id="glazami-turista" ,Глазами туриста HD
-https://hls.peers.tv/streaming/glazami_turista_hd/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/glazami_turista_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="dialogi-o-rybalke" ,Диалоги о рыбалке
-https://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/dialogi_o_rybalke/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="drive" ,Драйв
+https://api.peers.tv/timeshift/drive/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="ege-tv" ,ЕГЭ
-https://hls.peers.tv/streaming/ege/16/vh1/playlist.m3u8
+http://api.peers.tv/timeshift/ege/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="zhivaya-planeta" ,Живая Планета
+https://api.peers.tv/timeshift/zhivaya_planeta/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="zhivaya-priroda" ,Живая природа HD
 https://hls.peers.tv/streaming/zhivaya_priroda_hd/16/h1080/playlist.m3u8
@@ -330,14 +381,26 @@ https://hls.peers.tv/streaming/zhivaya_priroda_hd/16/h1080/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-id="zhivi-aktivno" ,Живи активно HD
 https://hls.peers.tv/streaming/zhivi_aktivno_hd/16/tvrecw/playlist.m3u8
 
+#EXTINF:-1 group-title="Стиль жизни" tvg-id="zhivi" ,ЖиВи!
+https://api.peers.tv/timeshift/jv/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Познавательные" tvg-id="kluch",Ключ
-https://hls.peers.tv/streaming/klyuch/126/tvrecw/playlist.m3u8
+http://api.peers.tv/timeshift/klyuch/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="krasnaya-linia" ,Красная Линия
 https://hls.peers.tv/streaming/red_line/126/vh1/playlist.m3u8
 
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="kuxnia-tv" ,Кухня
+https://api.peers.tv/timeshift/kitchentv/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="moya-planeta" ,Моя Планета
+https://api.peers.tv/timeshift/my_planet/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="muzhskoy" ,Мужской
+https://api.peers.tv/timeshift/muzhskoj/126/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Познавательные" tvg-id="myy" ,МЫ
-https://hls.peers.tv/streaming/mi/16/copy_a/playlist.m3u8
+https://api.peers.tv/timeshift/mi/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Религия" tvg-id="nadezhda" ,Надежда
 https://hls.peers.tv/streaming/hopetv/126/copy/playlist.m3u8
@@ -345,17 +408,20 @@ https://hls.peers.tv/streaming/hopetv/126/copy/playlist.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-id="narod-vsio-vidit" ,Народ Всё Видит
 https://hls.peers.tv/streaming/narod_vidit/16/copy/playlist.m3u8
 
-#EXTINF:-1 group-title="Познавательные" tvg-id="nasha-sibir-4k" ,Наша Сибирь
-https://hls.peers.tv/streaming/nasha_sibir/16/copy_a/playlist.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-id="nostalgia" ,Ностальгия
+https://api.peers.tv/timeshift/nostalgy/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="nauka-20" ,Наука 2.0
+https://api.peers.tv/timeshift/nauka_20/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="nasha-sibir-4k" ,Наша Сибирь HD
-https://hls.peers.tv/streaming/nasha_sibir_hd/16/copy/playlist.m3u8
+https://api.peers.tv/timeshift/nasha_sibir/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="nasha-tema" ,Наша тема HD
-https://hls.peers.tv/streaming/nasha_tema/16/h1080/playlist.m3u8
+https://api.peers.tv/timeshift/nasha_tema/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="neizvestnaya-planeta" ,Неизвестная Планета
-https://hls.peers.tv/streaming/neizvestnaya_planeta/16/copy_a/playlist.m3u8
+https://hls.peers.tv/streaming/neizvestnaya_planeta/16/copy_a/playlist.m3u8?
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="nowy-igrowoj" ,Новый Игровой Канал
 https://hls.peers.tv/streaming/niktv/16/copy/playlist.m3u8
@@ -366,59 +432,103 @@ https://hls.peers.tv/streaming/ntv_pravo/16/tvrecw/playlist.m3u8
 #EXTINF:-1 group-title="Стиль жизни" tvg-id="ntv-style" ,НТВ Стиль
 https://hls.peers.tv/streaming/ntv_stil/16/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="oruzhie" ,Оружие
+https://api.peers.tv/timeshift/oruzhie/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Познавательные" tvg-id="otkryty-mir" ,Открытый мир
 https://hls.peers.tv/streaming/open_mir/16/tvrecw/playlist.m3u8
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="oxota-i-rybalka" ,Охота и рыбалка
+https://api.peers.tv/timeshift/hafi/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="pervy-vegetariansky" ,Первый вегетарианский
 https://hls.peers.tv/streaming/pervyy_vegetarianskiy/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="pes-i-ko" ,Пёс и Ко
-https://hls.peers.tv/streaming/pyos_i_ko/16/vh1/playlist.m3u8
+https://api.peers.tv/timeshift/pyos_i_ko/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Развлекательные" tvg-id="poexali" ,ПОЕХАЛИ!
+https://api.peers.tv/timeshift/poehali/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="prikluchenia-hd",Приключения HD
+https://api.peers.tv/timeshift/teleputeshestvija_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="pro100" ,Про100 ТВ
 https://hls.peers.tv/streaming/pro100/126/copy_4_3/playlist.m3u8
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="prodvizhenie" ,Продвижение
-https://stream2.otvc.ru:1935/live/asb.stream/chunklist_w847269674.m3u8
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="psixologia-21" ,Психология 21
+https://api.peers.tv/timeshift/psych_21/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="ratnik" ,Ратник
 https://hls.peers.tv/streaming/ratnik/126/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Развлекательные" tvg-id="sarafan" ,Сарафан
+https://api.peers.tv/timeshift/sarafan/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Познавательные" tvg-id="sovsek" ,Совершенно секретно
 https://hls.peers.tv/streaming/top_secret/16/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Религия" tvg-id="soyuz" ,Союз
+https://api.peers.tv/timeshift/soyuz/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Развлекательные" tvg-id="sts-love" ,СТС Love
-https://hls.peers.tv/streaming/sts_love/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/sts_love/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Познавательные" tvg-id="texno-24" ,Т24
+https://api.peers.tv/timeshift/24techno/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="tayna" ,Тайна
-https://hls.peers.tv/streaming/tayna/16/copy_a/playlist.m3u8
+https://api.peers.tv/timeshift/tayna/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="galaxy-tv" ,Тайны Галактики
-https://hls.peers.tv/streaming/galaxy_tv/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/galaxy_tv/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="telekafe" ,ТЕЛЕКАФЕ
+https://api.peers.tv/timeshift/telekafe/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="terra-inkognita" ,Терра Инкогнита
 https://hls.peers.tv/streaming/terra_inkognito/16/copy/playlist.m3u8
 
+#EXTINF:-1 group-title="Развлекательные" tvg-id="tnt4" ,ТНТ4
+https://api.peers.tv/timeshift/tnt4/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="usadba" ,Усадьба
+https://api.peers.tv/timeshift/usadba/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Развлекательные" tvg-id="centralnoye-tv" ,Центральное Телевидение
-https://hls.peers.tv/streaming/tvc_ctv/126/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/tvc_ctv/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="che" ,Че!
-https://hls.peers.tv/streaming/perec/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/perec/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Развлекательные" tvg-id="yu" ,Ю
-https://hls.peers.tv/streaming/utv/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/utv/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Спорт" tvg-id="kxl" ,KHL
+https://api.peers.tv/timeshift/khl/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Спорт" tvg-id="russky-ekstrim" ,Russian Extreme
-https://hls.peers.tv/streaming/ru_extrem/126/vh1/playlist.m3u8
+https://api.peers.tv/timeshift/ru_extrem/126/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Спорт" tvg-id="viasat-sport" ,viju+ Sport
+https://api.peers.tv/timeshift/viasat_sport_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Спорт" tvg-id="match-tv" ,Матч!
-https://hls.peers.tv/streaming/sport/126/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/sport/16/playlist.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-id="match-tv" ,Матч!
-http://hls.peers.tv/streaming/sport/16/vh1w/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-boets" ,Матч! Боец
+https://api.peers.tv/timeshift/boets/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Спорт" tvg-id="match-igra" ,Матч! Игра
+https://api.peers.tv/timeshift/sport_2/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Спорт" tvg-id="match-nash-sport" ,Матч! Страна
+https://api.peers.tv/timeshift/match_nash_sport/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Спорт" tvg-id="start" ,Старт
-https://hls.peers.tv/streaming/start/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/start/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Музыка" tvg-id="bridge-tv" ,BRIDGE
 https://hls.peers.tv/streaming/bridge/16/tvrecw/playlist.m3u8
@@ -430,10 +540,10 @@ https://hls.peers.tv/streaming/dange_tv/16/tvrecw/playlist.m3u8
 https://hls.peers.tv/streaming/rusong_tv/16/vh1/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-id="ru-tv" ,RU.TV HD
-https://hls.peers.tv/streaming/rutv/16/tvrec/playlist.m3u8
+https://api.peers.tv/timeshift/rutv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Музыка" tvg-id="song-tv" ,SongTV Armenia
-https://hls.peers.tv/streaming/songtv_armenia/126/copy/playlist.m3u8
+https://api.peers.tv/timeshift/songtv_armenia/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Музыка" tvg-id="song-tv-ru" ,SongTV Russia
 https://hls.peers.tv/streaming/songtv_russia/126/tvrecw/playlist.m3u8
@@ -442,88 +552,97 @@ https://hls.peers.tv/streaming/songtv_russia/126/tvrecw/playlist.m3u8
 https://hls.peers.tv/streaming/matur/126/vh1w/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-id="muztv" ,МУЗ-ТВ
-https://hls.peers.tv/streaming/muz_tvnew/16/gvh1w/playlist.m3u8
+https://api.peers.tv/timeshift/muz_tvnew/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Музыка" tvg-id="la-minor" ,Музыка Live
+https://api.peers.tv/timeshift/la_minor/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Музыка" tvg-id="muzykamodatv" ,Музыка Мода ТВ
 https://hls.peers.tv/streaming/muzyka_moda_tv/16/h1080/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-id="tnt-music" ,ТНТ MUSIC
-https://hls.peers.tv/streaming/tnt_music/126/vh1w/playlist.m3u8
-
-#EXTINF:-1 group-title="Музыка" tvg-id="tnt-music" ,ТНТ MUSIC
-https://hls.peers.tv/streaming/tnt_music/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/tnt_music/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Музыка" tvg-id="shanson-tv" ,Шансон ТВ
-https://hls.peers.tv/streaming/shanson/16/gvh1w/playlist.m3u8
+https://api.peers.tv/timeshift/shanson/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Детские" tvg-id="ani" ,Ani
+https://api.peers.tv/timeshift/ani/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="ducktv" ,Duck TV
-https://hls.peers.tv/streaming/ducktv/16/copy_a/playlist.m3u8
-
-#EXTINF:-1 group-title="Детские" tvg-id="ducktv" ,Duck TV
-https://hls.peers.tv/streaming/ducktv/16/h720/playlist.m3u8
+https://api.peers.tv/timeshift/ducktv/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="familyjam" ,FamilyJam
 http://api.peers.tv/timeshift/familyjam/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="gulli-girl" ,Gulli Girl
-http://api.peers.tv/timeshift/gulli_girl/16/playlist.m3u8&offset=10
+https://api.peers.tv/timeshift/gulli_girl/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="tiji" ,TiJi
-http://api.peers.tv/timeshift/tiji/16/playlist.m3u8&offset=10
+https://api.peers.tv/timeshift/tiji/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="v-gostiax-u-skazki" ,В гостях у сказки HD
-http://api.peers.tv/timeshift/v_gostyah_u_skazki/16/playlist.m3u8&offset=10
+https://api.peers.tv/timeshift/v_gostyah_u_skazki/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="detsky-mir" ,Детский Мир
 https://hls.peers.tv/streaming/detskij_mir/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-id="detskoe-kino" ,Детское Кино
-https://hls.peers.tv/streaming/childrens_cinema/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/childrens_cinema/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Детские" tvg-id="ginger-hd" ,Капитан Фантастика HD
+https://api.peers.tv/timeshift/ginger_hd/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="karusel" ,Карусель
-https://hls.peers.tv/streaming/karusel/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/karusel/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="liova" ,Лёва
-https://hls.peers.tv/streaming/lyova/16/g2500/playlist.m3u8
+https://api.peers.tv/timeshift/lyova/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Детские" tvg-id="mama" ,Мама
+https://api.peers.tv/timeshift/motherchi/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" ,Мамонтенок
 https://hls.peers.tv/streaming/mmntk/126/vh1w/playlist.m3u8
 
+#EXTINF:-1 group-title="Детские" tvg-id="mult" ,МУЛЬТ
+https://api.peers.tv/timeshift/mult/16/playlist.m3u8&offset=10
+
 #EXTINF:-1 group-title="Детские" tvg-id="multimania" ,Мультиландия
-https://hls.peers.tv/streaming/multilandiya/16/h1080/playlist.m3u8
+https://api.peers.tv/timeshift/multilandiya/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" ,Мультимания
-https://hls.peers.tv/streaming/multimania/126/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/multimania/126/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="multsezon" ,МультСезон
-https://hls.peers.tv/streaming/cartoon_season/16/vh1w/playlist.m3u8
-
-#EXTINF:-1 group-title="Детские" tvg-id="o_",О!
-https://hls.peers.tv/streaming/o/16/copy/playlist.m3u8
+https://api.peers.tv/timeshift/cartoon_season/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="radost-moya" ,Радость Моя
-https://hls.peers.tv/streaming/radost_moj/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/radost_moj/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="ryzhy" ,Рыжий
-https://hls.peers.tv/streaming/red/16/tvrec/playlist.m3u8
-
-#EXTINF:-1 group-title="Детские" tvg-id="ryzhy" ,Рыжий
-https://hls.peers.tv/streaming/red/16/tvrecw/playlist.m3u8
+https://api.peers.tv/timeshift/red/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="skazki-zayki" ,Сказки Зайки
-https://hls.peers.tv/streaming/skazkizayki/16/variable.m3u8
+https://api.peers.tv/timeshift/skazkizayki/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="smaylik-tv" ,Смайлик ТВ
 https://hls.peers.tv/streaming/smayliktv/126/tvrecw/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-id="sovmultf" ,Советские мультфильмы
-https://hls.peers.tv/streaming/sovetskiemult/16/variable.m3u8
+https://api.peers.tv/timeshift/sovetskiemult/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="solnce" ,Солнце
-https://hls.peers.tv/streaming/solntse/16/gvh1w/playlist.m3u8
+https://api.peers.tv/timeshift/solntse/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Детские" tvg-id="sts-kids-hd" ,СТС Kids HD
+https://api.peers.tv/timeshift/sts_kids_hd/16/playlist.m3u8&offset=10
+
+#EXTINF:-1 group-title="Детские" tvg-id="malysh" ,СуперГерои
+https://api.peers.tv/timeshift/supergeroi/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Детские" tvg-id="detsky" ,Уникум
-https://hls.peers.tv/streaming/forkids/16/vh1w/playlist.m3u8
+https://api.peers.tv/timeshift/forkids/16/playlist.m3u8&offset=10
 
 #EXTINF:-1 group-title="Телемагазины",LEOMAX24
 https://hls.peers.tv/streaming/shop24/16/copy_a/playlist.m3u8
@@ -532,9 +651,5 @@ https://hls.peers.tv/streaming/shop24/16/copy_a/playlist.m3u8
 https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
-https://hls.peers.tv/streaming/yuvelirochka/16/vh1w/playlist.m3u8
-
-
-
-
+https://api.peers.tv/timeshift/yuvelirochka/16/playlist.m3u8&offset=10
 

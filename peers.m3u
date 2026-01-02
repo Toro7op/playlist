@@ -1,4 +1,4 @@
-#EXTM3U catchup="append" catchup-days="3" catchup-source="&offset=${offset}" 
+#EXTM3U
 
 #EXTINF:-1 group-title="Федеральные" tvg-id="pervy" ,Первый канал HD
 https://api.peers.tv/timeshift/1kanal_hd/16/playlist.m3u8&offset=10
@@ -652,4 +652,5 @@ https://hls.peers.tv/streaming/world/16/copy_a/playlist.m3u8
 
 #EXTINF:-1 group-title="Телемагазины",Ювелирочка
 https://api.peers.tv/timeshift/yuvelirochka/16/playlist.m3u8&offset=10
+
 

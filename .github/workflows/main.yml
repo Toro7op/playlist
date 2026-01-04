@@ -28,6 +28,7 @@ jobs:
         working-directory: token 
 
       - name: Upload Token as Artifact
+        if: success()
         uses: actions/upload-artifact@v4
         with:
           name: tricolor-token
@@ -35,16 +36,17 @@ jobs:
           if-no-files-found: error
 
       - name: Commit and Push
+        if: success()
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add token/tri_token.txt
           git commit -m "Update Token [skip ci]" || echo "No changes"
           git push
-          - name: Upload Screenshot on Failure
-  if: failure()
-  uses: actions/upload-artifact@v4
-  with:
-    name: debug-screenshot
-    path: token/error_page.png
 
+      - name: Upload Screenshot on Failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshot
+          path: token/error_page.png

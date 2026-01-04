@@ -1,0 +1,43 @@
+name: Get Tricolor Token
+on:
+  schedule:
+    - cron: '0 * * * *' # Запуск каждый час
+  workflow_dispatch:     # Кнопка для ручного запуска
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # Обязательно для разрешения записи в репозиторий
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install playwright
+          npx playwright install chromium --with-deps
+
+      - name: Run script
+        run: node token_tricolor.js
+        working-directory: token 
+
+      - name: Upload Token as Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: tricolor-token
+          path: token/tri_token.txt
+          if-no-files-found: error
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add token/tri_token.txt
+          git commit -m "Update Token [skip ci]" || echo "No changes"
+          git push

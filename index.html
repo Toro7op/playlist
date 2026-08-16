@@ -8,7 +8,6 @@
     <script>
         async function doRedirect() {
             const currentUrl = new URL(window.location.href);
-
             try {
                 const tokenResponse = await fetch('token.txt');
                 if (!tokenResponse.ok) throw new Error('Token error');
@@ -16,7 +15,9 @@
 
                 currentUrl.searchParams.set('drmreq', token);
 
-                const originalUrl = `https://sgw.ottgoods.ru${currentUrl.pathname}${currentUrl.search}`;
+                const cleanPath = currentUrl.pathname.replace('/playlist', '');
+
+                const originalUrl = `https://sgw.ottgoods.ru${cleanPath}${currentUrl.search}`;
 
                 window.location.replace(originalUrl);
             } catch (e) {

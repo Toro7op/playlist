@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>IPTV Redirector</title>
+</head>
+<body>
+    <script>
+        async function doRedirect() {
+            const currentUrl = new URL(window.location.href);
+
+            try {
+                const tokenResponse = await fetch('token.txt');
+                if (!tokenResponse.ok) throw new Error('Token error');
+                const token = (await tokenResponse.text()).trim();
+
+                currentUrl.searchParams.set('drmreq', token);
+
+                const originalUrl = `https://sgw.ottgoods.ru${currentUrl.pathname}${currentUrl.search}`;
+
+                window.location.replace(originalUrl);
+            } catch (e) {
+                document.body.innerText = "Ошибка загрузки токена: " + e.message;
+            }
+        }
+        doRedirect();
+    </script>
+</body>
+</html>
